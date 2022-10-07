@@ -1,0 +1,12 @@
+﻿#include "MyForm.h"
+
+using namespace System;
+using namespace System::Windows::Forms;
+[STAThreadAttribute]
+int main(array<String^>^ args) {
+	Application::EnableVisualStyles();
+	Application::SetCompatibleTextRenderingDefault(false);
+	Lab5Ejercicio1CarlosDiego::MyForm form;
+	Application::Run(% form);
+	return 0;
+}
